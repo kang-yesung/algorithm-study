@@ -41,7 +41,6 @@ public class 미로탈출 {
             System.out.println(-1);
             return;
         }
-
         System.out.println(l + e);
     }
 
@@ -59,7 +58,6 @@ public class 미로탈출 {
             int r = current[0];
             int c = current[1];
             int time = current[2];
-
 
             for(int i =0; i< 4; i++){
                 int nextR = r + dr[i];
