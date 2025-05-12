@@ -51,19 +51,17 @@ public class 미로탈출 {
         visited[sr][sc] = true;
         queue.offer(new int[] {sr, sc, 0});
 
-        boolean L = false;
-
         while(!queue.isEmpty()){
             int[] current = queue.poll();
             int r = current[0];
             int c = current[1];
             int time = current[2];
 
+            if(maps[r].charAt(c)==target) return time;
+
             for(int i =0; i< 4; i++){
                 int nextR = r + dr[i];
                 int nextC = c + dc[i];
-
-                if(maps[r].charAt(c)==target) return time;
 
                 if(isValid(nextR, nextC, maps)){
                     if(!visited[nextR][nextC]){
