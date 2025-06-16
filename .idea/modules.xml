@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/알고리즘 강의/1week/1week.iml" filepath="$PROJECT_DIR$/알고리즘 강의/1week/1week.iml" />
+      <module fileurl="file://$PROJECT_DIR$/알고리즘 강의/2week/2week.iml" filepath="$PROJECT_DIR$/알고리즘 강의/2week/2week.iml" />
+      <module fileurl="file://$PROJECT_DIR$/알고리즘 강의/3week/3week.iml" filepath="$PROJECT_DIR$/알고리즘 강의/3week/3week.iml" />
+      <module fileurl="file://$PROJECT_DIR$/알고리즘 강의/4week/4week.iml" filepath="$PROJECT_DIR$/알고리즘 강의/4week/4week.iml" />
+      <module fileurl="file://$PROJECT_DIR$/알고리즘 강의/5week/5week.iml" filepath="$PROJECT_DIR$/알고리즘 강의/5week/5week.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/algorithm-study.iml" filepath="$PROJECT_DIR$/.idea/algorithm-study.iml" />
+    </modules>
+  </component>
+</project>
